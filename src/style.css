@@ -11,3 +11,13 @@ fieldset {
 input[type="email"] {
   color: grey;
 }
+
+.radio {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+[block] {
+  display: block;
+  margin-bottom: 10px;
+}

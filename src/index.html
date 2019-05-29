@@ -25,11 +25,14 @@
     <fieldset>
       <legend>Registration</legend>
       <label>E-mail: <input type="email" name="email" data-qa="field-placeholder" value="email@example.com"></label>
-      <label>Password <input type="password" name="password"></label>
+      <label>Password: <input type="password" name="password"></label>
     </fieldset>
     <fieldset>
       <legend>An interesting fact about you!</legend>
-      <label>Do you love cats? <input type="radio" name="cats" value="Yes">Yes<input type="radio" name="cats" value="No">No</label>
+      <div block> Do you love cats?
+        <label class="radio"><input type="radio" name="cats" value="Yes">Yes</label>
+        <label class="radio"><input type="radio" name="cats" value="No">No</label>
+      </div>
       <label>What is your favorite color?<input type="color" name="color" value="black"></label>
       <label>What time do you go to bed? <input type="time" name="time"></label>
       <label>What are your favorite brand of cars?
