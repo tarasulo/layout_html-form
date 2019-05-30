@@ -8,12 +8,8 @@ fieldset {
   padding-bottom: 0;
 }
 
-input[type="email"] {
-  color: grey;
-}
-
 .radio {
-  display: inline-block;
+  display: inline;
   margin-bottom: 0;
 }
 
